@@ -40,7 +40,8 @@ class UserLogin(BaseModel):
 class Token(BaseModel):
     access_token: str
     token_type: str
-    
+
+# data we want to add in the payload
 class TokenData(BaseModel):
     id : Optional[str] = None
     
